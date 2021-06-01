@@ -1,7 +1,7 @@
 import abc
 from abc import ABC
 
-class Personal:
+class Personal(ABC):
     #Atributos
     _cuil = ''
     _apellido = ''
